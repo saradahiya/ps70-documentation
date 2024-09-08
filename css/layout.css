@@ -15,11 +15,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Adjusting space between buttons */
-.button-container {
-  display: flex;
-  gap: 10px; 
-}
 
 
 /* Main Page Layout */
@@ -93,6 +88,8 @@ body {
   display: flex;
   gap: 34px 16px;
   flex-wrap: wrap;
+  justify-content: center; 
+  padding: 0 20px; 
 }
 
     /* Project Cards */
